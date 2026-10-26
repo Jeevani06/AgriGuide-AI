@@ -1,0 +1,9 @@
+{% extends "base.html" %}{% block content %}<h3>Field Monitoring</h3>
+<form method="post" class="row g-2 col-md-8">
+<div class="col-6 col-md-4"><label>Crop</label><select class="form-select" name="crop">{% for c in crops %}<option>{{ c }}</option>{% endfor %}</select></div>
+<div class="col-6 col-md-4"><label>Growth stage</label><input class="form-control" name="growth_stage"></div>
+{% for f in fields %}<div class="col-6 col-md-4"><label>{{ f }}</label><input class="form-control" name="{{ f }}" type="number" step="any" required></div>{% endfor %}
+<div class="col-12"><button class="btn btn-success">Analyse risk</button></div></form>
+{% if out %}<div class="alert mt-4 alert-{{ {'LOW':'success','MEDIUM':'warning','HIGH':'danger'}[out.level] }}">
+<b>{{ {'LOW':'🟢','MEDIUM':'🟡','HIGH':'🔴'}[out.level] }} {{ out.level }} risk</b> for {{ out.crop }}
+<ul class="mb-0">{% for a in out.alerts %}<li>{{ a }}</li>{% else %}<li>All readings within the ideal range.</li>{% endfor %}</ul></div>{% endif %}{% endblock %}

@@ -1,0 +1,9 @@
+{% extends "base.html" %}{% block content %}<h3>Hello, {{ current_user.name }}</h3>
+<div class="row g-3 my-2">{% for k, t in [('recommendation','🌱 Last recommendation'),('monitoring','⚠️ Last risk check'),('yield','📈 Last yield')] %}
+<div class="col-md-4"><div class="card"><div class="card-body"><h6>{{ t }}</h6>
+<p class="mb-0">{{ latest[k].summary if latest[k] else 'Nothing yet' }}</p></div></div></div>{% endfor %}</div>
+<h6 class="mt-4">Risk trend (last checks)</h6><canvas id="riskChart" height="90"></canvas>
+<a class="btn btn-success mt-3" href="{{ url_for('recommend.recommend') }}">New recommendation</a>{% endblock %}
+{% block scripts %}<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<script>const RISKS = {{ risks|tojson }};</script>
+<script src="{{ url_for('static', filename='js/charts.js') }}"></script>{% endblock %}

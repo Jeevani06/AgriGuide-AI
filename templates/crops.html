@@ -1,0 +1,9 @@
+{% extends "base.html" %}{% from "_macros.html" import crop_card with context %}
+{% block title %}All crops{% endblock %}
+{% block content %}
+<div class="sec-head" style="margin-top:6px"><h2>{% if q %}Results for “{{ q }}”{% else %}All crops{% endif %} <small class="text-muted fs-6">{{ items|length }} found</small></h2></div>
+<div class="pills"><a class="{{ 'on' if not season }}" href="{{ url_for('main.crops', q=q) }}">All seasons</a>
+{% for s in seasons %}<a class="{{ 'on' if season==s }}" href="{{ url_for('main.crops', q=q, season=s) }}">{{ s }}</a>{% endfor %}</div>
+<div class="grid mt-3">{% for c in items %}{{ crop_card(c, crop_meta[c].months) }}{% else %}
+<div class="box empty" style="grid-column:1/-1">No crops match that search. Try “rice”, “Rabi” or clear the filter.</div>{% endfor %}</div>
+{% endblock %}

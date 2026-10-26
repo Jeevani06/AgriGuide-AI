@@ -1,0 +1,7 @@
+{% macro crop_card(c, tag=None, tag_class='') %}
+<a class="pcard" href="{{ url_for('recommend.crop_guide', crop=c) }}">
+  <div class="pic"><img src="{{ crop_img(c) }}" alt="{{ c|title }} crop" loading="lazy">{% if tag %}<span class="tag {{ tag_class }}">{{ tag }}</span>{% endif %}</div>
+  <div class="body"><h3>{{ crop_meta[c].emoji }} {{ c }}</h3><p>{{ crop_meta[c].tagline }}</p>
+    <div class="chips"><span class="chip">{{ crop_meta[c].season }}</span><span class="chip">💧 {{ crop_meta[c].water }} water</span></div>
+    <span class="go">View growing guide</span></div></a>
+{% endmacro %}

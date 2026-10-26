@@ -1,0 +1,5 @@
+{% extends "base.html" %}{% block content %}<h3>History &amp; Report</h3>
+<table class="table table-sm"><tr><th>Date</th><th>Type</th><th>Crop</th><th>Result</th></tr>
+{% for r in recs %}<tr><td>{{ r.created.strftime('%d %b %Y %H:%M') }}</td><td>{{ r.kind }}</td><td>{{ r.crop }}</td><td>{{ r.summary }}</td></tr>
+{% else %}<tr><td colspan="4">No records yet.</td></tr>{% endfor %}</table>
+<button class="btn btn-outline-success" onclick="window.print()">Print report</button>{% endblock %}

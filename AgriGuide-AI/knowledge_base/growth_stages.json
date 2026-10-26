@@ -1,0 +1,46 @@
+{
+ "default": [
+  [
+   "Germination",
+   10
+  ],
+  [
+   "Vegetative",
+   40
+  ],
+  [
+   "Flowering",
+   30
+  ],
+  [
+   "Grain/Fruit filling",
+   30
+  ],
+  [
+   "Maturity & harvest",
+   10
+  ]
+ ],
+ "rice": [
+  [
+   "Nursery",
+   25
+  ],
+  [
+   "Tillering",
+   35
+  ],
+  [
+   "Panicle initiation",
+   25
+  ],
+  [
+   "Flowering",
+   15
+  ],
+  [
+   "Ripening",
+   30
+  ]
+ ]
+}

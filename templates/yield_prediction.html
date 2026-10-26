@@ -1,0 +1,8 @@
+{% extends "base.html" %}{% block content %}<h3>Yield Prediction</h3>
+<form method="post" class="row g-2 col-md-8">
+<div class="col-md-6"><label>Crop</label><select class="form-select" name="crop">{% for c in crops %}<option>{{ c }}</option>{% endfor %}</select></div>
+<div class="col-md-6"><label>Annual rainfall (mm)</label><input class="form-control" name="rainfall" type="number" step="any" required></div>
+<div class="col-md-6"><label>Fertilizer (kg/ha)</label><input class="form-control" name="fertilizer" type="number" step="any" required></div>
+<div class="col-md-6"><label>Pesticide (kg/ha)</label><input class="form-control" name="pesticide" type="number" step="any" required></div>
+<div class="col-12"><button class="btn btn-success">Predict</button></div></form>
+{% if res %}<div class="alert alert-success mt-4">📈 Expected yield for {{ res.crop }}: <b>{{ res.value }} tons/ha</b></div>{% endif %}{% endblock %}

@@ -1,0 +1,16 @@
+{
+ "default": {
+  "irrigation": "Irrigate at critical stages (flowering, filling); avoid waterlogging.",
+  "nutrients": "Split nitrogen into 2-3 doses; apply full P and K as basal dose.",
+  "pests": "Scout weekly; use IPM (traps, neem-based sprays) before chemicals.",
+  "weather": "Watch forecasts: delay spraying/irrigation before heavy rain.",
+  "weeds": "Weed at 20 and 40 days after sowing; mulch where possible."
+ },
+ "rice": {
+  "irrigation": "Keep 2-5 cm standing water during vegetative stage; drain 10 days before harvest.",
+  "pests": "Watch for blast, brown planthopper and stem borer."
+ },
+ "cotton": {
+  "pests": "Monitor bollworm and whitefly with pheromone/sticky traps."
+ }
+}

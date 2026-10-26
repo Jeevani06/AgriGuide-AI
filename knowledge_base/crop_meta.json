@@ -1,0 +1,8 @@
+{
+ "rice":     {"tagline": "India's everyday staple, grown in flooded fields", "season": "Kharif", "months": "Jun – Oct", "days": "120–150", "water": "High", "soil": "Clay loam", "emoji": "🌾"},
+ "maize":    {"tagline": "Fast-growing grain for food, feed and starch", "season": "Kharif", "months": "Jun – Sep", "days": "90–110", "water": "Medium", "soil": "Well-drained loam", "emoji": "🌽"},
+ "cotton":   {"tagline": "The white-gold cash crop of black soils", "season": "Kharif", "months": "Jun – Dec", "days": "150–180", "water": "Medium", "soil": "Black cotton soil", "emoji": "☁️"},
+ "chickpea": {"tagline": "Protein-rich pulse that thrives on stored moisture", "season": "Rabi", "months": "Oct – Mar", "days": "95–110", "water": "Low", "soil": "Sandy loam", "emoji": "🫘"},
+ "banana":   {"tagline": "Year-round fruit crop with heavy nutrient appetite", "season": "Year-round", "months": "All year", "days": "270–365", "water": "High", "soil": "Rich, deep loam", "emoji": "🍌"},
+ "mango":    {"tagline": "The king of fruits, a long-term orchard investment", "season": "Year-round", "months": "Fruits Apr – Jul", "days": "3–5 years to first crop", "water": "Low–Medium", "soil": "Deep alluvial", "emoji": "🥭"}
+}

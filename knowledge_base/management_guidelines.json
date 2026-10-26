@@ -1,0 +1,163 @@
+{
+  "default": {
+    "irrigation": "Irrigate according to soil moisture and crop stage; avoid both drought stress and waterlogging.",
+    "nutrients": "Base fertilizer on a soil test; apply phosphorus and potassium before planting and split nitrogen during active growth.",
+    "pests": "Scout weekly and use integrated pest management before considering a labelled pesticide.",
+    "weather": "Check the forecast before irrigation and spraying; provide drainage before heavy rain.",
+    "weeds": "Keep the crop weed-free during establishment and early flowering; mulch or intercrop where suitable."
+  },
+  "apple": {
+    "irrigation": "Use drip irrigation; maintain even moisture from fruit set through fruit enlargement and reduce irrigation before harvest.",
+    "nutrients": "Apply compost and soil-test-based potassium; split nitrogen between bud break and fruit set rather than overfeeding.",
+    "pests": "Monitor codling moth, aphids and scab; use pheromone traps, sanitation and registered controls when thresholds are reached.",
+    "weather": "Protect blossoms from late frost and maintain airflow; avoid overhead irrigation during wet, cool periods.",
+    "weeds": "Keep a weed-free strip around trees and use organic mulch without touching the trunk."
+  },
+  "banana": {
+    "irrigation": "Provide frequent drip or basin irrigation during bunch development; maintain drainage because roots are sensitive to standing water.",
+    "nutrients": "Supply potassium in split applications with compost and balanced nitrogen; avoid placing fertilizer against the pseudostem.",
+    "pests": "Remove damaged leaves and monitor banana weevil, thrips and nematodes; use clean planting material and IPM.",
+    "weather": "Stake or brace plants before storms and protect bunches from sun and wind where needed.",
+    "weeds": "Mulch the basin and control weeds shallowly to protect the surface root system."
+  },
+  "blackgram": {
+    "irrigation": "Give light irrigation at branching, flowering and pod filling; stop excess watering near maturity.",
+    "nutrients": "Use seed inoculation and a small starter nitrogen dose; prioritize phosphorus and sulfur based on soil test.",
+    "pests": "Scout for whitefly, aphids and pod borer; remove infected plants and use neem or registered IPM options.",
+    "weather": "Provide raised drainage in rainy periods and avoid sowing before prolonged wet weather.",
+    "weeds": "Control weeds within the first 20-30 days with one timely interculture or approved herbicide."
+  },
+  "chickpea": {
+    "irrigation": "Prefer well-drained soil; irrigate at branching, flowering and pod filling only when moisture is limiting.",
+    "nutrients": "Inoculate seed with appropriate rhizobia and apply phosphorus and sulfur from a soil test; avoid excess nitrogen.",
+    "pests": "Monitor gram pod borer with pheromone traps and scout flowers and pods; conserve beneficial insects.",
+    "weather": "Avoid waterlogging and late heavy irrigation because cool, wet foliage increases disease risk.",
+    "weeds": "Keep fields clean during the first 6 weeks with shallow interculture to avoid root damage."
+  },
+  "coconut": {
+    "irrigation": "Deeply irrigate the basin during dry months and mulch heavily; ensure rapid drainage during monsoon.",
+    "nutrients": "Apply compost and palm fertilizer in a wide ring away from the trunk, timed before reliable rainfall.",
+    "pests": "Inspect the crown for rhinoceros beetle and red palm weevil; use pheromone traps and remove breeding material.",
+    "weather": "Support young palms against wind and maintain drainage around the root zone.",
+    "weeds": "Keep a mulched basin weed-free and use cover crops between palms where moisture permits."
+  },
+  "coffee": {
+    "irrigation": "Maintain mulch and irrigate during flowering and berry expansion when rainfall is insufficient; avoid saturation.",
+    "nutrients": "Use compost plus split nitrogen, phosphorus and potassium applications after soil and leaf testing.",
+    "pests": "Monitor coffee berry borer, leaf rust and white stem borer; improve shade, sanitation and targeted IPM.",
+    "weather": "Maintain filtered shade and windbreaks; avoid wetting foliage late in the day.",
+    "weeds": "Use mulch and shallow slashing; avoid deep hoeing around feeder roots."
+  },
+  "cotton": {
+    "irrigation": "Irrigate at square formation, flowering and boll development; avoid excess water during boll opening.",
+    "nutrients": "Apply phosphorus and potassium basally and split nitrogen before flowering; avoid late excessive nitrogen.",
+    "pests": "Monitor bollworm and whitefly with pheromone and sticky traps; follow threshold-based IPM.",
+    "weather": "Ensure drainage after heavy rain and avoid spraying during high wind or when rain is imminent.",
+    "weeds": "Keep the field weed-free for the first 60 days and avoid damaging shallow roots during interculture."
+  },
+  "grapes": {
+    "irrigation": "Use regulated drip irrigation; maintain moisture during berry set and enlargement and reduce water near ripening.",
+    "nutrients": "Split fertigation by growth stage with emphasis on potassium during berry development; confirm with soil and leaf tests.",
+    "pests": "Scout for powdery mildew, downy mildew and thrips; prune for airflow and use labelled fungicides only when needed.",
+    "weather": "Train vines to improve ventilation and protect ripening bunches from rain splitting.",
+    "weeds": "Maintain a clean strip below vines with mulch or shallow cultivation."
+  },
+  "jute": {
+    "irrigation": "Maintain moisture during establishment and rapid stem growth; drain standing water after heavy rain.",
+    "nutrients": "Apply balanced nitrogen, phosphorus and potassium from a soil test; split nitrogen to prevent weak, lush stems.",
+    "pests": "Scout for semilooper and stem weevil; remove badly affected plants and use biological or registered controls.",
+    "weather": "Sow with reliable early moisture and avoid waterlogged seedbeds.",
+    "weeds": "Thin and weed early, especially during the first 4-6 weeks when seedlings grow slowly."
+  },
+  "kidneybeans": {
+    "irrigation": "Give light irrigations at flowering and pod filling; avoid waterlogging and stop excess irrigation before harvest.",
+    "nutrients": "Inoculate seed where suitable and apply phosphorus and potassium; avoid heavy nitrogen that delays maturity.",
+    "pests": "Monitor bean aphid, pod borer and rust; use clean seed, crop rotation and threshold-based IPM.",
+    "weather": "Use well-drained beds and avoid field work when foliage is wet to reduce disease spread.",
+    "weeds": "Control weeds during the first 30-40 days with shallow cultivation."
+  },
+  "lentil": {
+    "irrigation": "Usually needs limited irrigation; water at branching and pod filling only when soil moisture is low.",
+    "nutrients": "Use rhizobium inoculation and soil-test-based phosphorus and sulfur; avoid excess nitrogen.",
+    "pests": "Scout for aphids, pod borer and wilt; rotate crops and remove diseased plants promptly.",
+    "weather": "Ensure drainage and avoid prolonged leaf wetness during flowering.",
+    "weeds": "Keep seedlings weed-free through the first 6 weeks with timely shallow weeding."
+  },
+  "maize": {
+    "irrigation": "Protect soil moisture at knee-high growth, tasseling, silking and grain filling; tasseling and silking are most sensitive.",
+    "nutrients": "Apply phosphorus and potassium at planting and split nitrogen between early growth and knee-high stage.",
+    "pests": "Scout for fall armyworm and stem borer in the whorl; use traps and targeted IPM based on infestation.",
+    "weather": "Provide drainage after heavy rain and avoid water stress around silking.",
+    "weeds": "Control weeds during the first 30-45 days and earth up carefully without damaging roots."
+  },
+  "mango": {
+    "irrigation": "Reduce irrigation before flowering, then irrigate during fruit set and fruit enlargement; avoid waterlogging.",
+    "nutrients": "Apply compost and soil-test-based fertilizer after harvest; split nitrogen and potassium around flowering and fruit set.",
+    "pests": "Monitor hopper, mealybug and fruit fly; use orchard sanitation, traps and selective IPM.",
+    "weather": "Improve canopy airflow and protect blossoms from prolonged rain and strong wind.",
+    "weeds": "Keep a mulched, weed-free basin and mow inter-row cover rather than deep hoeing."
+  },
+  "mothbeans": {
+    "irrigation": "Use limited irrigation at flowering and pod filling; the crop tolerates dry conditions but not standing water.",
+    "nutrients": "Apply seed inoculation and soil-test-based phosphorus; avoid high nitrogen in low-rainfall fields.",
+    "pests": "Scout for pod borer, aphids and mites; use crop rotation and threshold-based IPM.",
+    "weather": "Use well-drained fields and avoid irrigation before forecast rain.",
+    "weeds": "Complete one early weeding within 20-25 days to protect slow initial growth."
+  },
+  "mungbean": {
+    "irrigation": "Irrigate lightly at flowering and pod filling when needed; stop before pods mature.",
+    "nutrients": "Use rhizobium inoculation and phosphorus and sulfur based on soil test; avoid excess nitrogen.",
+    "pests": "Monitor whitefly, thrips and pod borer; remove virus-affected plants and use selective IPM.",
+    "weather": "Provide drainage and avoid wet foliage during flowering and pod development.",
+    "weeds": "Keep the crop weed-free during the first 30 days with shallow interculture."
+  },
+  "muskmelon": {
+    "irrigation": "Use drip irrigation; maintain even moisture during fruit set and enlargement and reduce water near ripening.",
+    "nutrients": "Use compost and split fertigation with potassium during fruit development; avoid excess nitrogen.",
+    "pests": "Scout for aphids, whitefly, fruit fly and powdery mildew; use nets, sanitation and labelled IPM.",
+    "weather": "Use raised beds and mulch to keep fruit dry; protect vines from prolonged wet conditions.",
+    "weeds": "Mulch after establishment and remove weeds without disturbing shallow vines."
+  },
+  "orange": {
+    "irrigation": "Use deep, regular irrigation during fruit set and enlargement; allow the surface to dry slightly between watering.",
+    "nutrients": "Apply compost and citrus fertilizer in split doses, with potassium during fruit development and micronutrients after testing.",
+    "pests": "Monitor citrus psylla, leaf miner, scale and citrus canker; prune infected tissue and use IPM.",
+    "weather": "Maintain drainage and wind protection; avoid overhead irrigation to reduce disease.",
+    "weeds": "Keep a mulched weed-free basin without piling mulch against the trunk."
+  },
+  "papaya": {
+    "irrigation": "Irrigate frequently but lightly with good drainage; maintain moisture during flowering and fruit filling.",
+    "nutrients": "Apply compost and split nitrogen and potassium regularly; include boron and other micronutrients only after testing.",
+    "pests": "Scout for papaya ringspot, mites and fruit fly; use clean seedlings, rouging and sanitation.",
+    "weather": "Protect from wind and drain water quickly because papaya is highly sensitive to root rot.",
+    "weeds": "Use shallow weeding and organic mulch around, but not touching, the stem."
+  },
+  "pigeonpeas": {
+    "irrigation": "Usually rainfed; provide supplemental water at flowering and pod filling during extended dry spells.",
+    "nutrients": "Inoculate seed and apply phosphorus and sulfur according to soil test; avoid excessive nitrogen.",
+    "pests": "Monitor pod borer and pod fly with traps and regular flower and pod scouting.",
+    "weather": "Use well-drained soil and avoid waterlogging during the long crop duration.",
+    "weeds": "Keep rows weed-free for the first 45 days, then maintain clean inter-row space."
+  },
+  "pomegranate": {
+    "irrigation": "Use drip irrigation with consistent moisture during flowering and fruit enlargement; avoid sudden wet-dry cycles.",
+    "nutrients": "Apply compost and split nitrogen and potassium based on soil and leaf tests; avoid excess nitrogen.",
+    "pests": "Monitor fruit borer, aphids and bacterial blight; remove damaged fruit and disinfect pruning tools.",
+    "weather": "Prune for airflow and protect fruit from prolonged rain and cracking.",
+    "weeds": "Maintain a clean, mulched basin and mow cover between rows."
+  },
+  "rice": {
+    "irrigation": "Keep soil moist during establishment, use shallow alternate wetting and drying after establishment, and drain 7-10 days before harvest.",
+    "nutrients": "Apply phosphorus and potassium basally; split nitrogen at tillering and panicle initiation using a soil test.",
+    "pests": "Scout for blast, bacterial leaf blight, brown planthopper and stem borer; avoid excess nitrogen and use IPM.",
+    "weather": "Maintain field drainage during storms and avoid nitrogen or fungicide applications before heavy rain.",
+    "weeds": "Use stale seedbed, timely mechanical weeding or a locally approved herbicide during early crop growth."
+  },
+  "watermelon": {
+    "irrigation": "Use drip irrigation with steady moisture through fruit set and enlargement; reduce irrigation as fruit ripens.",
+    "nutrients": "Use compost and split nitrogen with higher potassium during fruit filling; avoid excess nitrogen.",
+    "pests": "Scout for aphids, whitefly, mites, fruit fly and downy mildew; use mulch, sanitation and IPM.",
+    "weather": "Use raised beds and mulch to keep fruit dry and provide drainage during heavy rain.",
+    "weeds": "Mulch after vines establish and remove weeds shallowly to avoid damaging the root zone."
+  }
+}

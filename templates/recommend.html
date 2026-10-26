@@ -1,0 +1,9 @@
+{% extends "base.html" %}{% block content %}<h3>Crop Recommendation</h3>
+<form method="post" class="row g-2 col-md-8">
+{% for f in feats %}<div class="col-6 col-md-4"><label class="form-label">{{ f }}</label>
+<input class="form-control" name="{{ f }}" type="number" step="any" required></div>{% endfor %}
+<div class="col-12"><button class="btn btn-success">Recommend</button></div></form>
+{% if results %}<h5 class="mt-4">Top recommendations</h5><ol>
+{% for c, p in results %}<li><a href="{{ url_for('recommend.crop_guide', crop=c) }}">{{ c|title }}</a> — {{ p }}%
+<div class="progress"><div class="progress-bar bg-success" style="width:{{ p }}%"></div></div></li>{% endfor %}</ol>
+<p class="text-muted">Click a crop to open its management guide.</p>{% endif %}{% endblock %}

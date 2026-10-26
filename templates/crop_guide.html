@@ -1,0 +1,6 @@
+{% extends "base.html" %}{% block content %}<h3>{{ crop|title }} — Management Guide</h3>
+<div class="row g-3">{% for k, icon in [('irrigation','💧'),('nutrients','🧪'),('pests','🐛'),('weather','🌦️'),('weeds','🌿')] %}
+<div class="col-md-4"><div class="card h-100"><div class="card-body"><h6>{{ icon }} {{ k|title }}</h6><p>{{ guide[k] }}</p></div></div></div>{% endfor %}
+<div class="col-md-4"><div class="card h-100"><div class="card-body"><h6>🌱 Growth stages</h6>
+<ul>{% for s, d in stages %}<li>{{ s }} (~{{ d }} days)</li>{% endfor %}</ul></div></div></div></div>
+<a class="btn btn-success mt-3" href="{{ url_for('monitor.monitor') }}">Start monitoring</a>{% endblock %}
