@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 .venv/
 instance/
+models/yield_prediction_model.pkl
+AgriGuide-AI/models/yield_prediction_model.pkl
